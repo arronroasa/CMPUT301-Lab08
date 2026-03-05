@@ -10,22 +10,11 @@ public class CustomList {
         this.cities = new ArrayList<>();
     }
 
-    public void addCity(City city) {
-        cities.add(city);
-    }
+    public void addCity(City city) { cities.add(city); }
 
-    public boolean hasCity(City city) {
-        return cities.contains(city);
-    }
+    public boolean hasCity(City city) { return cities.contains(city); }
 
-    public void deleteCity(City city) {
-        cities.remove(city);
-    }
+    public void deleteCity(City city) { cities.remove(city); }
 
-    public int countCities(CustomList list) {
-        return list.cities.size();
-    }
-
-    // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
+    public int countCities(CustomList list) { return list.cities.size(); }
 }
