@@ -20,6 +20,7 @@ public class CustomListTest {
         CustomList list = new CustomList();
         City vancouver = new City("Vancouver", "BC");
         list.addCity(vancouver);
+        list.deleteCity(vancouver);
 
         assertFalse(list.hasCity(vancouver));
     }
